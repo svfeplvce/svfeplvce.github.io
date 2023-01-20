@@ -17,15 +17,16 @@ body {
 
 .navbar {
     display: flex;
-    position: relative;
-    top: 5%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-.navbar a:hover {
-    color: #adadad;
-}
+    .navbar a:hover {
+        color: #adadad;
+    }
 
 @media screen and (min-width: 961px) {
     .about {
@@ -54,7 +55,7 @@ body {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 }
 
@@ -87,7 +88,7 @@ body {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 }
 
@@ -98,10 +99,10 @@ body {
     width: 100%;
     bottom: 2%;
     display: flex;
-    position: absolute;
+    position: fixed;
 }
 
-.socials a {
-    float: left;
-    padding: 10px 10px;
-}
+    .socials a {
+        float: left;
+        padding: 10px 10px;
+    }
