@@ -23,3 +23,26 @@ body {
     height: 100%;
     width: 100%;
   }
+
+@keyframes henry {
+    from { 
+        height: 75vw;
+        width: 75vw;
+    }
+    to { 
+        height: 125vw;
+        width: 125vw;
+    }
+}
+
+.henry {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 75vw;
+    width: 75vw;
+    animation-name: henry;
+    animation-duration: 3600s;
+    animation-iteration-count: 1;
+}
