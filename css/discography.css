@@ -68,6 +68,10 @@ body::-webkit-scrollbar {
         position: absolute;
         color: transparent;
     }
+        .container h6 a {
+            text-decoration: none;
+            color: transparent;
+        }
 
     .container .vulture {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/vulture.png");
