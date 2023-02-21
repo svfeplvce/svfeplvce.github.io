@@ -46,3 +46,9 @@ body {
     animation-duration: 3600s;
     animation-iteration-count: 1;
 }
+
+.toolate {
+    color: transparent;
+    text-decoration: none;
+    left: 50%;
+}
