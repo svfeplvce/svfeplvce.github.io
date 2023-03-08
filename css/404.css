@@ -8,30 +8,22 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-  }
+}
 
 body {
     overflow: hidden;
     color: white;
-  }
-
-.four {
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-  }
+}
 
 @keyframes henry {
-    from { 
-        height: 75vw;
-        width: 75vw;
+    from {
+        height: 75%;
+        width: 100%;
     }
-    to { 
-        height: 125vw;
-        width: 125vw;
+
+    to {
+        height: 125%;
+        width: 125%;
     }
 }
 
@@ -40,15 +32,9 @@ body {
     position: fixed;
     align-items: center;
     justify-content: center;
-    height: 75vw;
-    width: 75vw;
+    height: 75%;
+    width: 100%;
     animation-name: henry;
     animation-duration: 3600s;
     animation-iteration-count: 1;
-}
-
-.toolate {
-    color: transparent;
-    text-decoration: none;
-    left: 50%;
 }

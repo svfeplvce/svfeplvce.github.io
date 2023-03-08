@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\audio",
-    "\\css"
+    "\\css",
+    "\\images",
+    "\\js"
   ],
-  "SelectedNode": "\\discography.html",
+  "SelectedNode": "\\images",
   "PreviewInSolutionExplorer": false
 }
