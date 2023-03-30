@@ -86,6 +86,7 @@ body {
 
 .nowout {
     display: flex;
+    text-align: center;
     flex-direction: column;
     font-family: 'Newsreader';
     background-image: url("../images/cover_the_end.png");
