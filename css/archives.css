@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/background_main.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Grisstar;
+    src: url("../fonts/Grisstar.ttf") format("trueType");
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
