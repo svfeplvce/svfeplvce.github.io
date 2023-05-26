@@ -89,7 +89,7 @@ body {
     text-align: center;
     flex-direction: column;
     font-family: 'Newsreader';
-    background-image: url("../images/cover_the_end.png");
+    background-image: url("../images/cover_milo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -177,8 +177,8 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
     background-image: url("../images/cover_exordium.png");
     text-align: center;
 }
