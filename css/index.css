@@ -3,8 +3,18 @@ body, html {
     margin: 0;
 }
 
+@font-face {
+    font-family: 'clancy';
+    src: url("../fonts/Main Font.ttf");
+}
+
+@font-face {
+    font-family: 'clancy-bold';
+    src: url("../fonts/Main Font Bold.ttf");
+}
+
 .hero-image {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/loisbearer.png");
+    background-image: linear-gradient(rgba(255,0,0,0.5), rgba(255,0,0,0.5)), url("../images/loisbearer.png");
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -25,5 +35,13 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #FCE300;
+}
+
+.hero-text h1 {
+    font-family: clancy-bold;
+}
+
+.hero-text p {
+    font-family: clancy;
 }
