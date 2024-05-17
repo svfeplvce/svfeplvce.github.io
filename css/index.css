@@ -42,6 +42,7 @@ body, html {
     font-family: clancy-bold;
 }
 
-.hero-text p {
+.hero-text a {
     font-family: clancy;
+    text-decoration: none;
 }
