@@ -45,4 +45,6 @@ body, html {
 .hero-text a {
     font-family: clancy;
     text-decoration: none;
+    text-decoration-color: #FCE300;
+    color: #FCE300;
 }
