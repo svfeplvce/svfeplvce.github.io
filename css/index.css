@@ -48,3 +48,8 @@ body, html {
     text-decoration-color: #FCE300;
     color: #FCE300;
 }
+
+.hero-text p {
+    font-family: clancy;
+    color: transparent;
+}
