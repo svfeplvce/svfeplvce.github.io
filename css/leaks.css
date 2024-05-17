@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'clancy';
+    src: url("../fonts/Main Font.ttf");
+}
+
+@font-face {
+    font-family: 'clancy-bold';
+    src: url("../fonts/Main Font Bold.ttf");
+}
+
+a {
+    font-family: clancy;
+    text-decoration: none;
+    text-decoration-color: #FF0000;
+    color: #FF0000;
+}
+
+.lyrics img {
+    padding: 10px;
+}
