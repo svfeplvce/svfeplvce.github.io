@@ -35,7 +35,7 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #FCE300;
+    color: #FF0000;
 }
 
 .hero-text h1 {
@@ -45,8 +45,8 @@ body, html {
 .hero-text a {
     font-family: clancy;
     text-decoration: none;
-    text-decoration-color: #FCE300;
-    color: #FCE300;
+    text-decoration-color: #FF0000;
+    color: #FF0000;
 }
 
 .hero-text p {
