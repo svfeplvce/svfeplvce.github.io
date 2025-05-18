@@ -14,7 +14,7 @@ body, html {
 }
 
 .hero-image {
-    background-image: url("../images/loisbearer.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("../images/loisbearer.jpg");
     height: 100vh;
     width: 100vw;
     display: flex;
